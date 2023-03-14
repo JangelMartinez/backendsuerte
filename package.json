@@ -3,6 +3,7 @@
     "wrangler": "^2.12.2"
   },
   "devDependencies": {
+    "better-sqlite3": "^8.0.1",
     "jest": "^29.5.0"
   }
 }

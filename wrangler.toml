@@ -1,3 +1,7 @@
-name = "backendsuerte"
+name = "cocinazombie"
 main = "src/index.js"
 compatibility_date = "2023-03-10"
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "cocinazombie"
+database_id = "8d4dcefe-58d5-478d-9f4a-5a70ed20c53c"
