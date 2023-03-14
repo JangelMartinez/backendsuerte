@@ -25,6 +25,7 @@ La dirección del backend desplegado es:
 Endpoints:
 
 '/api/getAllOrders' -> Recoges todos los pedidos que hay
+
 '/api/newOrder' -> Creas un nuevo pedido 
     le tienes que pasar un objeto con el atributo date y el valor del atributo en string
     Ejemplo: {date: '14/03/2023 20:30'}
