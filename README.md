@@ -4,6 +4,8 @@ El reto del BackendDeLaSuerte consiste en realizar un backend en el lenguaje que
 
 El proyecto consiste en realizar pedidos en un restaurante que sirve a Zombies.
 
+1 semana: realiar un endpoint para leer las comandas y otro endpoint para crear una nueva comanda (solo la fecha)
+
 # La suerte
 
 La suerte, ha hecho que me toque realizar el proyecto con la bbdd de cloudflare D1
@@ -27,5 +29,6 @@ Endpoints:
 '/api/getAllOrders' -> Recoges todos los pedidos que hay
 
 '/api/newOrder' -> Creas un nuevo pedido 
+
     le tienes que pasar un objeto con el atributo date y el valor del atributo en string
     Ejemplo: {date: '14/03/2023 20:30'}
